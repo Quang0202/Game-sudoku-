@@ -67,7 +67,8 @@ void change(int sudokuBoard[][9])
         for(int j=0;j<9;j++)
     {
         if(sudokuBoard[i][j]==0)
-            ar.arrchange[i][j]=0;
+             ar.arrchange[i][j]=0;
+
          else
          ar.arrchange[i][j]=1;
     }
@@ -332,16 +333,6 @@ int chonman()
     string a[9]={"version 1","version 2","version 3","version 4","version 5","version 6","version 7","version 8","version 9"};
     int maunen=176,mau[10];
     int mauchu=7,st=0;
-    for(int i=0;i>9;i++)
-        mau[i]=mauchu;
-    mau[0]=maunen;
-    for(int i=0;i<9;i++)
-        {
-
-            gotoxy(30,i+10);
-            cout<<a[i]<<endl;
-        }
-    gotoxy(30,10);
 
     while(1)
     {
@@ -516,7 +507,7 @@ void testgame(int sudokuBoard[][9])
             {
                 gotoxy(26,30);
                 cout<<"Game over!!"<<endl;
-                cout<<"Press 'enter' to redo"<<endl;
+                cout<<"Press ' ' to exit"<<endl;
             break;
             }
         else
@@ -529,13 +520,12 @@ void testgame(int sudokuBoard[][9])
         {
             gotoxy(26,30);
             cout<<"Game over!!"<<endl
-                <<"Press 'enter' to redo"<<endl
                 <<"Press ' ' to exit"<<endl;
         }
     else
     { gotoxy(26,30);
-      cout<<"You win!!!"<<endl;
-      cout<<"Press ' ' to exit"<<endl;
+      cout<<"You win!!!"<<endl
+          <<"Press ' ' to exit"<<endl;
     }
     while(1)
     {
@@ -543,13 +533,7 @@ void testgame(int sudokuBoard[][9])
     if(_kbhit())
     {
         char key=_getch();
-        if(key==13)
-        {
-            clrscr();
-            display(ar.sudokuBoard);
-            return;
-        }
-        else if(key==32)
+         if(key==32)
         {
             clrscr();
             getOption(ar.sudokuBoard);
