@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1522988063 source:d:\codefun\game sudoku\main.cpp
+	<iostream>
+	<cstdlib>
+	<stdlib.h>
+	"console.h"
+	<windows.h>
+	<conio.h>
+	<fstream>
+
+1443331591 source:d:\codefun\console\console.cpp
+	<stdio.h>
+	<conio.h>
+	"console.h"
+
+1443331617 d:\codefun\console\console.h
+	<windows.h>
+
+1443331617 d:\codefun\game sudoku\console.h
+	<windows.h>
+
+1443331591 source:d:\codefun\game sudoku\console.cpp
+	<stdio.h>
+	<conio.h>
+	"console.h"
+
