@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1523808424 source:d:\codefun\gamesudoku_2\console.cpp
+	<stdio.h>
+	<conio.h>
+	"console.h"
+
+1523808424 d:\codefun\gamesudoku_2\console.h
+	<windows.h>
+
+1523631413 source:d:\codefun\gamesudoku_2\display.cpp
+	"display.h"
+	"console.h"
+
+1523631797 d:\codefun\gamesudoku_2\display.h
+	<iostream>
+
+1523807181 source:d:\codefun\gamesudoku_2\createarray.cpp
+	"createArray.h"
+	<fstream>
+
+1523634029 d:\codefun\gamesudoku_2\createboard.h
+	<iostream>
+
+1523808095 source:d:\codefun\gamesudoku_2\main.cpp
+	<iostream>
+	<cstdlib>
+	<stdlib.h>
+	"console.h"
+	<windows.h>
+	<conio.h>
+	"display.h"
+	<fstream>
+
+1523807117 d:\codefun\gamesudoku_2\createarray.h
+	<iostream>
+
