@@ -1,8 +1,8 @@
 
                                                 GAME SUDOKU
 
- TÁC GIẢ : ĐỖ VĂN QUANG
- THỜI GIAN HOÀN THÀNH 2-3 TUẦN
+ TÁC GIẢ : ĐỖ VĂN QUANG .
+ THỜI GIAN HOÀN THÀNH 2-3 TUẦN.
  LUẬT CHƠI :
 - Người chơi phải điền số từ 1->9 vào mỗi hàng, mỗi ô và mỗi ô vuông 3x3.
 - Sử dụng các phím 'W', 'S', 'A', 'D', lần lượt để di chuyển lên xuống sang trái sang phải .
