@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1526027844 source:d:\lap trinh\game_sudoku_4.0\console.cpp
+	<stdio.h>
+	<conio.h>
+	"Console.h"
+
+1526027774 d:\lap trinh\game_sudoku_4.0\console.h
+	<windows.h>
+
+1525364129 source:d:\lap trinh\game_sudoku_4.0\createarray.cpp
+	<iostream>
+	"createArray.h"
+	<conio.h>
+	<fstream>
+
+1525364128 d:\lap trinh\game_sudoku_4.0\createarray.h
+	<iostream>
+
+1526027932 source:d:\lap trinh\game_sudoku_4.0\display.cpp
+	"Display.h"
+	"Console.h"
+
+1526005455 d:\lap trinh\game_sudoku_4.0\display.h
+	<iostream>
+
+1527780065 source:d:\lap trinh\game_sudoku_4.0\main.cpp
+	<iostream>
+	<cstdlib>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<string>
+	"Console.h"
+	"Display.h"
+	"Array.h"
+
+1525615451 source:d:\lap trinh\game_sudoku_4.0\array.cpp
+	<iostream>
+	"Array.h"
+	<conio.h>
+	<fstream>
+
+1525364128 d:\lap trinh\game_sudoku_4.0\array.h
+	<iostream>
+
